@@ -6,7 +6,7 @@ api = Mobileclient()
 email = raw_input("Please enter your email:") 
 password = raw_input("Please enter your password: (app-specific if you have 2fa enabled)")
 api.login(email, password, Mobileclient.FROM_MAC_ADDRESS)
-#api.login('halorules15@gmail.com', 'twvsqzgauicsbzuc', Mobileclient.FROM_MAC_ADDRESS)
+#api.login(email, password, Mobileclient.FROM_MAC_ADDRESS)
 
 outrunLinks = ["AMaBXylIL3CQ_aZYzIpNzAi9LVcGHQ7tDmBIbVE8dVbDLU4J4V10kD1YT3DYE2xHDt6yKClx1qTx4YCuv7fHNU3lhyoOjSAQxw==",
         "AMaBXykt_DsUhDk_9Uyu0TsX8WLNSP9cLz9iJn2fUrOQlf01MWHpbq34q1-NLQecbobGBUUpLzvebSidqmuiQi4X2lDnHvFI_A==",
